@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "TenantCloud",
+  "description": "Cloud-based property management platform with a REST API for managing rentals, tenants, leases, maintenance, accounting, and online rent payment processing. The API enables landlords, property managers, and developers to automate daily tasks and build integrations on top of the TenantCloud platform.",
+  "url": "https://www.tenantcloud.com",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Property Management Software",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.tenantcloud.com/pricing"
+  },
+  "featureList": [
+    "Rental Property Management",
+    "Tenant Management",
+    "Lease Management",
+    "Maintenance Request Tracking",
+    "Accounting",
+    "Online Rent Payment Processing",
+    "Tenant Screening",
+    "REST API Integration"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "TenantCloud",
+    "url": "https://www.tenantcloud.com",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "url": "https://support.tenantcloud.com/",
+      "contactType": "customer support"
+    }
+  },
+  "sameAs": [
+    "https://app.tenantcloud.com",
+    "https://api.tenantcloud.com"
+  ],
+  "potentialAction": {
+    "@type": "RegisterAction",
+    "target": "https://app.tenantcloud.com/register"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://docs.api.tenantcloud.com/"
+  }
+}

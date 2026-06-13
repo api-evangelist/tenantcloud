@@ -1,0 +1,71 @@
+aid: tenantcloud
+name: TenantCloud
+description: Cloud-based property management platform with a REST API for managing
+  rentals, tenants, leases, maintenance, accounting, and online rent payment processing.
+  The API enables landlords, property managers, and developers to automate daily tasks
+  and build integrations on top of the TenantCloud platform.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Real Estate
+  - Rental
+  - Tenant Management
+  - Lease Management
+  - Maintenance
+  - Accounting
+  - Rent Payments
+apis:
+  - aid: tenantcloud:tenantcloud-api
+    name: TenantCloud API
+    description: REST API for managing rental properties, tenants, leases, maintenance
+      requests, accounting, and online rent payment processing on the TenantCloud platform.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.api.tenantcloud.com/
+    baseURL: https://api.tenantcloud.com
+    tags:
+      - Property Management
+      - Rentals
+      - Tenants
+      - Leases
+      - Maintenance
+      - Accounting
+      - Payments
+    properties:
+      - type: Documentation
+        url: https://docs.api.tenantcloud.com/
+      - type: OpenAPI
+        url: https://docs.api.tenantcloud.com/
+    contact:
+      - FN: TenantCloud Support
+        url: https://support.tenantcloud.com/
+        email: ''
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/finops/finops.yml
+  - type: Pricing
+    url: https://www.tenantcloud.com/pricing
+  - type: StatusPage
+    url: https://status.tenantcloud.com/
+  - type: Blog
+    url: https://www.tenantcloud.com/blog
+  - type: ProductUpdates
+    url: https://support.tenantcloud.com/product_updates
+  - type: Support
+    url: https://support.tenantcloud.com/
+  - type: SignUp
+    url: https://app.tenantcloud.com/register
+  - type: Login
+    url: https://app.tenantcloud.com/login
+  - type: GettingStarted
+    url: https://docs.api.tenantcloud.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

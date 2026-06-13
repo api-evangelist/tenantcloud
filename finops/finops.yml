@@ -1,0 +1,56 @@
+finops:
+  description: Financial operations and cost management information for TenantCloud
+    API and platform usage.
+  pricing:
+    model: subscription
+    url: https://www.tenantcloud.com/pricing
+    currency: USD
+    billingOptions:
+      - monthly
+      - annual
+    annualDiscount: true
+    annualDiscountNote: Annual billing saves approximately 2 months of cost (roughly
+      16% discount).
+  plans:
+    - name: Starter
+      monthlyPrice: 15.00
+      annualPrice: 180.00
+      targetUnits: 1-10 units
+    - name: Growth
+      monthlyPrice: 29.17
+      annualPrice: 350.00
+      targetUnits: 11-30 units
+    - name: Pro
+      monthlyPrice: 50.00
+      annualPrice: 600.00
+      targetUnits: 31-60 units
+    - name: Business
+      monthlyPrice: 100.00
+      annualPrice: null
+      targetUnits: 60+ units
+      customPricing: true
+      note: Custom pricing based on lease count and specific organizational needs.
+  apiCosts:
+    description: API access is included with a TenantCloud subscription. No separate
+      API-specific pricing tiers are publicly documented.
+    separateApiPricing: false
+    apiIncludedInSubscription: true
+  freeTrial:
+    available: true
+    duration: 14 days
+    creditCardRequired: false
+    note: 14-day free trial available for all plans.
+  transactionFees:
+    rentPayments:
+      description: TenantCloud facilitates online rent payments. Transaction fees
+        may apply depending on payment method.
+      url: https://www.tenantcloud.com/pricing
+      note: Check current pricing page for up-to-date transaction fee information.
+  costOptimization:
+    - Choose annual billing to save approximately 2 months of subscription cost.
+    - Select a plan appropriate for your unit count to avoid overpaying for unused
+      capacity.
+    - The Starter plan at $15/month is most cost-effective for portfolios of 10 units
+      or fewer.
+    - Upgrade to Growth or Pro only when you exceed unit limits or need advanced features
+      like QuickBooks sync.

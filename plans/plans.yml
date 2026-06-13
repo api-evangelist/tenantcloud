@@ -1,0 +1,81 @@
+plans:
+  - name: Starter
+    description: For DIY landlords with small portfolios looking to automate tasks
+      and simplify management of up to 10 units.
+    url: https://www.tenantcloud.com/pricing
+    price: 15.00
+    priceCurrency: USD
+    billingCycle: monthly
+    annualPrice: 180.00
+    features:
+      - Online rent payments
+      - Rental listings
+      - Tenant screening
+      - Maintenance tracking
+      - Digital leasing
+      - Tax reports
+      - E-signature
+    unitRange: 1-10 units
+  - name: Growth
+    description: For mid-to-large landlords with expanding portfolios of 11-30 units
+      looking for additional organization and tenant tools.
+    url: https://www.tenantcloud.com/pricing
+    price: 29.17
+    priceCurrency: USD
+    billingCycle: monthly
+    annualPrice: 350.00
+    features:
+      - Everything in Starter
+      - Expanded unit limits
+      - Team calendar
+      - Move-in inspections
+      - Tenant message board
+      - Phone support
+      - Property manager tools
+      - Individual owner portal
+      - Management fees
+      - Lease builder
+      - Landlord forms
+    unitRange: 11-30 units
+  - name: Pro
+    description: For mid-to-large landlords and property managers looking for premium
+      features and efficiency with portfolios of 31-60 units.
+    url: https://www.tenantcloud.com/pricing
+    price: 50.00
+    priceCurrency: USD
+    billingCycle: monthly
+    annualPrice: 600.00
+    features:
+      - Everything in Growth
+      - Advanced tax and financial reports
+      - Bank reconciliation
+      - QuickBooks Online sync
+      - Google Calendar sync
+      - Custom applications
+      - Maintenance boards
+      - Listing website
+      - Owner dashboards
+      - Premium leads
+    unitRange: 31-60 units
+  - name: Business
+    description: For large property management companies and teams with 60+ units
+      requiring advanced features tailored to their needs.
+    url: https://www.tenantcloud.com/pricing
+    price: 100.00
+    priceCurrency: USD
+    billingCycle: monthly
+    customPricing: true
+    features:
+      - Everything in Pro
+      - Full customization
+      - Team collaboration tools
+      - Activity timelines
+      - Owner management
+      - Amortization tracking
+      - Priority support
+      - Unlimited application customization
+    unitRange: 60+ units
+  freeTrial:
+    available: true
+    duration: 14 days
+    description: All plans include a 14-day free trial with access to all plan features.

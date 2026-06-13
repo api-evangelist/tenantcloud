@@ -1,0 +1,18 @@
+rateLimits:
+  description: TenantCloud API rate limit details are not publicly documented. Authentication
+    uses Personal Access Tokens (PAT) obtained from account settings at app.tenantcloud.com.
+    Contact TenantCloud support for current rate limit policies.
+  authentication:
+    type: Bearer Token
+    description: Personal Access Token (PAT) required for all API requests. Obtain
+      from TenantCloud account settings at https://app.tenantcloud.com under your
+      profile settings.
+    headerName: Authorization
+    headerFormat: Bearer {token}
+  publicDocumentation: false
+  contactForDetails: https://support.tenantcloud.com/
+  notes:
+    - Rate limits are not publicly documented as of 2026-06-13
+    - API access requires a TenantCloud account
+    - Personal Access Tokens are generated per user account
+    - The base API URL is https://api.tenantcloud.com

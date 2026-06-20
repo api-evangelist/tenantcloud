@@ -4,7 +4,7 @@ description: Cloud-based property management platform with a REST API for managi
   rentals, tenants, leases, maintenance, accounting, and online rent payment processing.
   The API enables landlords, property managers, and developers to automate daily tasks
   and build integrations on top of the TenantCloud platform.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -23,7 +23,7 @@ apis:
     name: TenantCloud API
     description: REST API for managing rental properties, tenants, leases, maintenance
       requests, accounting, and online rent payment processing on the TenantCloud platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.api.tenantcloud.com/
     baseURL: https://api.tenantcloud.com
     tags:

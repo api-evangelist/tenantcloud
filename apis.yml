@@ -56,11 +56,11 @@ common:
     url: https://status.tenantcloud.com/
   - type: Blog
     url: https://www.tenantcloud.com/blog
-  - type: ProductUpdates
+  - type: ReleaseNotes
     url: https://support.tenantcloud.com/product_updates
   - type: Support
     url: https://support.tenantcloud.com/
-  - type: SignUp
+  - type: Signup
     url: https://app.tenantcloud.com/register
   - type: Login
     url: https://app.tenantcloud.com/login

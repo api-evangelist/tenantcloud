@@ -1,115 +1,13 @@
 {
-  "url": "https://www.tenantcloud.com/blog",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "How Avail Online Rent Collection Works",
-      "url": "https://www.tenantcloud.com/review/avail-online-rent-collection",
-      "date": "2026-05-26",
-      "category": "Review",
-      "description": "Compares rent collection flexibility between Avail and TenantCloud, highlighting payment options and accounting features."
-    },
-    {
-      "title": "How To Ensure Compliance with Lease Agreements as a Landlord",
-      "url": "https://www.tenantcloud.com/lease-agreement/how-to-ensure-compliance-with-lease-agreements",
-      "date": "2026-05-25",
-      "category": "Lease Agreement",
-      "description": "Guides landlords on maintaining lease compliance through strong agreements, tenant screening, and clear expectations."
-    },
-    {
-      "title": "Best Tools for Automated Rent Collection",
-      "url": "https://www.tenantcloud.com/rent-collection/automated-rent-collection",
-      "date": "2026-05-23",
-      "category": "Rent Collection",
-      "description": "Reviews automated rent collection platforms to simplify monthly payment transfers from tenant to landlord accounts."
-    },
-    {
-      "title": "Guide to Rental Property Depreciation",
-      "url": "https://www.tenantcloud.com/property-management/rental-property-depreciation",
-      "date": "2026-05-22",
-      "category": "Property Management",
-      "description": "Explains depreciation as a tax deduction strategy for spreading rental ownership costs over 27.5 years."
-    },
-    {
-      "title": "Cash for Keys Agreement: A Faster Alternative to Eviction",
-      "url": "https://www.tenantcloud.com/property-management/cash-for-keys-agreement",
-      "date": "2026-05-21",
-      "category": "Property Management",
-      "description": "Presents cash-for-keys as an expedited alternative to lengthy eviction proceedings."
-    },
-    {
-      "title": "Rent vs. Buy: A Property Manager's Guide to Market Dynamics & Tenant Retention",
-      "url": "https://www.tenantcloud.com/investing/rent-vs-buy",
-      "date": "2026-05-20",
-      "category": "Investing",
-      "description": "Provides guidance on rent versus purchase decisions considering market conditions and tenant retention."
-    },
-    {
-      "title": "Avail vs. TurboTenant: Which Property Management Software is Best?",
-      "url": "https://www.tenantcloud.com/review/avail-vs-turbotenant",
-      "date": "2026-05-19",
-      "category": "Review",
-      "description": "In-depth comparison of two property management platforms to help users select the best fit."
-    },
-    {
-      "title": "9 Best Tenant Screening Services for Landlords",
-      "url": "https://www.tenantcloud.com/tenant-screening/9-best-tenant-screening-services-for-landlords",
-      "date": "2026-05-18",
-      "category": "Tenant Screening",
-      "description": "Reviews screening services, emphasizing how poor tenant selection causes significant financial losses."
-    },
-    {
-      "title": "How to Check for Evictions: A Complete Guide for Landlords & Property Managers",
-      "url": "https://www.tenantcloud.com/tenant-screening/how-to-check-for-evictions",
-      "date": "2026-05-16",
-      "category": "Tenant Screening",
-      "description": "Educational guide on reviewing eviction records during tenant screening processes."
-    },
-    {
-      "title": "AppFolio vs Buildium: Which Software is Best for Your Portfolio",
-      "url": "https://www.tenantcloud.com/review/appfolio-vs-buildium",
-      "date": "2026-05-15",
-      "category": "Review",
-      "description": "Compares platforms considering portfolio size, essential features, and pricing structures."
-    },
-    {
-      "title": "The Complete Guide to Managing Rental Property Maintenance Requests & Costs",
-      "url": "https://www.tenantcloud.com/maintenance/the-complete-guide-to-managing-rental-property-maintenance-requests",
-      "date": "2026-05-14",
-      "category": "Maintenance",
-      "description": "Addresses managing maintenance issues and costs through preventative strategies for common problems."
-    },
-    {
-      "title": "AppFolio vs Yardi: Which Property Management Software Is Right for You?",
-      "url": "https://www.tenantcloud.com/review/appfolio-vs-yardi",
-      "date": "2026-05-13",
-      "category": "Review",
-      "description": "Compares two popular enterprise-level property management platforms."
-    },
-    {
-      "title": "How to Run a Credit Check on a Tenant: The Complete Guide for Landlords and Property Managers",
-      "url": "https://www.tenantcloud.com/tenant-screening/how-to-run-a-credit-check-on-a-tenant",
-      "date": "2026-05-12",
-      "category": "Tenant Screening",
-      "description": "Step-by-step guide on conducting credit checks to identify reliable rental candidates."
-    },
-    {
-      "title": "How to Find a Quality Tenant for Your Rental Property",
-      "url": "https://www.tenantcloud.com/tenant-screening/how-to-find-quality-tenants-with-a-customizable-application-and-integrated-screenings",
-      "date": "2026-05-11",
-      "category": "Tenant Screening",
-      "description": "Addresses challenges in tenant recruitment through customizable applications and screening tools."
-    },
-    {
-      "title": "The Ultimate 2026 Guide to Month-to-Month Leases for Landlords",
-      "url": "https://www.tenantcloud.com/lease-agreement/month-to-month-lease",
-      "date": "2026-05-06",
-      "category": "Lease Agreement",
-      "description": "Comprehensive resource on month-to-month lease benefits, risks, legal compliance, and management practices."
-    }
-  ],
   "repo": "tenantcloud",
   "feeds": [
+    {
+      "source": "https://www.tenantcloud.com/blog/feed/",
+      "feed_url": "https://www.tenantcloud.com/blog/feed/",
+      "title": "",
+      "saved": 4,
+      "method": "feed"
+    },
     {
       "source": "https://status.tenantcloud.com/",
       "feed_url": "https://status.tenantcloud.com/",
@@ -118,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 8
 }

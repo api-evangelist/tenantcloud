@@ -44,6 +44,8 @@ apis:
         url: https://support.tenantcloud.com/
         email: ''
 common:
+  - type: DomainSecurity
+    url: security/tenantcloud-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/tenantcloud/refs/heads/main/plans/plans.yml
   - type: RateLimits

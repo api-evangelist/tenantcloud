@@ -4,6 +4,17 @@ description: Cloud-based property management platform with a REST API for managi
   rentals, tenants, leases, maintenance, accounting, and online rent payment processing.
   The API enables landlords, property managers, and developers to automate daily tasks
   and build integrations on top of the TenantCloud platform.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

@@ -75,6 +75,8 @@ apis:
         url: https://support.tenantcloud.com/
         email: ''
 common:
+  - type: Website
+    url: https://www.tenantcloud.com/
   - type: DomainSecurity
     url: security/tenantcloud-domain-security.yml
   - type: Plans

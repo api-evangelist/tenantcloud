@@ -33,7 +33,7 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Property Management
-  - Real-Estate
+  - Real Estate
   - Rentals
   - Tenant Management
   - Lease Management
@@ -49,6 +49,7 @@ tags_raw:
   - Maintenance
   - Accounting
   - Rent Payments
+  - Real-Estate
 apis:
   - aid: tenantcloud:tenantcloud-api
     name: TenantCloud API

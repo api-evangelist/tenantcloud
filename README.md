@@ -64,45 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cloud-based property management platform with a REST API for managing rentals, tenants, leases, maintenance, accounting, and online rent payment processing.
+Cloud-based property management platform with a REST API for managing rentals, tenants, leases, maintenance, accounting, and online rent payment processing. The API enables landlords, property managers, and developers to automate daily tasks and build integrations on top of the TenantCloud platform.
 
-## Overview
+**Areas:** Property Management · Real Estate · Rentals · Tenant Management · Lease Management · Maintenance · Accounting · Rent Payments
 
-TenantCloud provides a comprehensive property management platform for landlords, property managers, and real estate professionals. The platform offers a REST API at `https://api.tenantcloud.com` that enables developers to automate daily property management tasks and build integrations.
+## TenantCloud on APIs.io
 
-## API Documentation
+Everything profiled for TenantCloud is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tenantcloud/](https://apis.io/providers/tenantcloud/)** — or go straight to one of the APIs or properties below.
 
-- **API Docs:** https://docs.api.tenantcloud.com/
-- **Base URL:** https://api.tenantcloud.com
-- **Authentication:** Personal Access Token (PAT) via Bearer token header
+### APIs (1)
 
-## Key Resources
+- [TenantCloud API](https://apis.io/apis/tenantcloud/tenantcloud-api/) — REST API for managing rental properties, tenants, leases, maintenance requests, accounting, and online rent payment processing on the TenantCloud platform.
 
-- **Pricing:** https://www.tenantcloud.com/pricing
-- **Status Page:** https://status.tenantcloud.com/
-- **Blog:** https://www.tenantcloud.com/blog
-- **Product Updates:** https://support.tenantcloud.com/product_updates
-- **Support:** https://support.tenantcloud.com/
-- **Sign Up:** https://app.tenantcloud.com/register
+### Published properties
 
-## Plans
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Plan | Monthly | Annual | Units |
-|------|---------|--------|-------|
-| Starter | $15/mo | $180/yr | 1-10 |
-| Growth | $29.17/mo | $350/yr | 11-30 |
-| Pro | $50/mo | $600/yr | 31-60 |
-| Business | Custom ($100+/mo) | Custom | 60+ |
+#### Security (1)
 
-All plans include a 14-day free trial.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Catalog Files
+- [Tenantcloud Domain Security](https://apis.io/security/tenantcloud/tenantcloud-domain-security/)
 
-- [`apis.yml`](apis.yml) - APIs.json 0.19 provider profile
-- [`plans/plans.yml`](plans/plans.yml) - Subscription plan details
-- [`rate-limits/rate-limits.yml`](rate-limits/rate-limits.yml) - API rate limit information
-- [`finops/finops.yml`](finops/finops.yml) - Financial operations and cost management
+#### Plans and pricing (1)
 
-## Maintainer
+Published plans, tiers and prices.
 
-**Kin Lane** — kin@apievangelist.com
+- [Plans](https://apis.io/plans/tenantcloud/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/tenantcloud/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/tenantcloud/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tenantcloud.com/)
+- [Getting started](https://docs.api.tenantcloud.com/)
+- [Pricing](https://www.tenantcloud.com/pricing)
+- [Support](https://support.tenantcloud.com/)
+- [Blog](https://www.tenantcloud.com/blog)
+- [Status](https://status.tenantcloud.com/)
+
+## API Evangelist rating
+
+**Kin Score 23.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 17.9 |
+| Access clarity | 25.0 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tenantcloud/](https://apis.io/providers/tenantcloud/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TenantCloud: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tenantcloud/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
